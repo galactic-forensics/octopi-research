@@ -26,7 +26,7 @@ class Tracker_Image(object):
 	def __init__(self):
 		# Define list of trackers being used(maybe do this as a definition?)
 		# OpenCV tracking suite
-		# self.OPENCV_OBJECT_TRACKERS = {}
+		self.OPENCV_OBJECT_TRACKERS = {}
 		try:
 			self.OPENCV_OBJECT_TRACKERS = {
 			"csrt": cv2.TrackerCSRT_create,
