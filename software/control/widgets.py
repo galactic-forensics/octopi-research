@@ -612,7 +612,7 @@ class AutoFocusWidget(QFrame):
 
         self.entry_N = QSpinBox()
         self.entry_N.setMinimum(3) 
-        self.entry_N.setMaximum(20) 
+        self.entry_N.setMaximum(100) 
         self.entry_N.setSingleStep(1)
         self.entry_N.setValue(10)
         self.autofocusController.set_N(10)
